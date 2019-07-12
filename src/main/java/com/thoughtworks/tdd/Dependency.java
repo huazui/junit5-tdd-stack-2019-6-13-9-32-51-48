@@ -1,7 +1,8 @@
 package com.thoughtworks.tdd;
 
 public class Dependency {
-    public String say(){
-        return "Leave me alone.";
+    public Dependency(){}
+    public String say(int number){
+        return String.valueOf(number);
     }
 }
